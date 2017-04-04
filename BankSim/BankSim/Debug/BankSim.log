@@ -1,0 +1,4 @@
+﻿  ListQueue.cpp
+  Client.cpp
+  Generating Code...
+c:\users\shane mcsally\desktop\banksim\banksim\listqueue.cpp(80): error C4716: 'ListQueue::dequeue': must return a value
