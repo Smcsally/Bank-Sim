@@ -49,7 +49,7 @@ ostream& operator<<(ostream& os, const Client& s) {
 	return os;
 }
 
-void Client::setName(char n[100]) {
+void Client::setName(char n[50]) {
 	strcpy(name, n);
 }
 
@@ -59,4 +59,16 @@ void Client::setArrivalTime(int a) {
 
 void Client::setDuration(int d) {
 	duration = d;
+}
+
+char* Client::getName() {
+	return name;
+}
+
+int Client::getArrivalTime() {
+	return arrivalTime;
+}
+
+int Client::getDuration() {
+	return duration;
 }

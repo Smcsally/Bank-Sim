@@ -77,6 +77,7 @@ void ListQueue::enqueue(Client c) {
 Client ListQueue::dequeue() {
 	Client c = head->c; 
 	remove(c);
+	return c;
 }
 
 // add an element to the end

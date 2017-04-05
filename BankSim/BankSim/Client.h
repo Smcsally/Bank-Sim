@@ -30,6 +30,15 @@ public:
 	// set the duration of the clients visit
 	void setDuration(int d);
 
+	// set the name of the Client
+	char* getName();
+
+	// set the arrival time of the Client
+	int getArrivalTime();
+
+	// set the duration of the clients visit
+	int getDuration();
+
 private:
 	char name[50];
 	int arrivalTime;
