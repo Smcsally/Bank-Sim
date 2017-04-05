@@ -45,6 +45,8 @@ int main(int argc, char* argv[]) {
 			temp.setArrivalTime(arrivalTime);
 			temp.setDuration(duration);
 		}
+
+		
 	}
 
 
